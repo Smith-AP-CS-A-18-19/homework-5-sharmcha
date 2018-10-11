@@ -12,6 +12,8 @@ public class Homework5 {
 	 * have the substring end at the end of the stored String.
 	 * For example, if the stored String is "Happy" and the call is made
 	 * substring(2, 5), the method should return "ppy"
+	 * Note that the parameters in this method are different from the
+	 * substring method in the String class
 	 */
 	public String substring(int index, int length) {
 
@@ -23,7 +25,7 @@ public class Homework5 {
 	 * an example
 	 */
 	public boolean contains(String s) {
-		return false;
+		
 	}
 
 	/* Return the larger of the two stored numbers
