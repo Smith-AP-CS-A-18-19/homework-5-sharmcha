@@ -22,7 +22,7 @@ public class Homework5 {
 	 * Note that the parameters in this method are different from the
 	 * substring method in the String class
 	 */
-	public String substrings(int index, int length) {
+	public String substring(int index, int length) {
 		if ((index + length) <= word.length() -1) {
 			String part = word.substring(index, index + length);
 			return part;
@@ -64,14 +64,14 @@ public class Homework5 {
 
 		Homework5 hw5 = new Homework5("Hello, World!", 5, 6);
 
-		if (hw5.substrings(4, 4).equals("o, W")) {
+		if (hw5.substring(4, 4).equals("o, W")) {
 			System.out.println("Pass 1");
 		} else {
 			System.out.println("Fail 1");
 			exitCode += 1;
 		}
 
-		if (hw5.substrings(7, 8).equals("World!")) {
+		if (hw5.substring(7, 8).equals("World!")) {
 			System.out.println("Pass 2");
 		} else {
 			System.out.println("Fail 2");
